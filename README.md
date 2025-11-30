@@ -83,8 +83,11 @@ Real-time race-winner probability prediction
 # Project Structure
 Project_F1_Analysis/
 │── ProjectF1.ipynb        # Data exploration & machine learning
+
 │── app.py                 # Streamlit interactive application
+
 │── README.md              # Project documentation
+
 │── data/                  # Downloaded automatically via kagglehub
 
 # Technologies Used
