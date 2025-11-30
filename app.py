@@ -462,7 +462,9 @@ elif section == "🎯 Win Prediction":
                         st.subheader("Win Probability Prediction")
                         
                         # Create a progress bar for visual representation
-                        st.progress(min(win_prob / 100, 1.0))
+                        numeric_prob = float(str(win_prob).replace("%", "").strip())
+                        st.progress(numeric_prob / 100)
+
                         
                         # Large metric display
                         prob_col1, prob_col2, prob_col3 = st.columns([1, 2, 1])
